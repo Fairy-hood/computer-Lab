@@ -11,15 +11,23 @@ html{
     height: 400px;
     width: 270px;
     background-image: linear-gradient(rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674));
+    box-shadow: 3px 3px 30px 3px #151719;
+    border-radius: 15px;
+    margin: 150px 20px 20px 600px;
+    text-align: center;
 }
 
 .bigpart:hover{
     background-image: linear-gradient(rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792));
+    transition: 0.5s;
 }
 
 
-music player part ->{
+.musicplayer{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 3px 3px 3px dimgrey;
+    padding-top: 10px;
 }
 
 song and the song writers -> {
