@@ -69,8 +69,17 @@ img:hover{
 }
 
 
-.back
-.for
-.play while mouseover -> {
+.back,
+.for,
+.play:hover{
     border-color: #bebebe;
+}
+
+.zaman{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    width: 250px;
 }
