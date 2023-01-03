@@ -66,6 +66,7 @@ img:hover{
     width: 45px;
     height: 45px;
     border-radius: 50%;
+    margin-right: 25px;
 }
 
 
@@ -82,4 +83,7 @@ img:hover{
 
 input{
     width: 250px;
+}
+li{
+    display: inline;
 }
